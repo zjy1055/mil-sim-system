@@ -1,0 +1,33 @@
+{
+  "name": "mil-sim-backend",
+  "version": "1.0.0",
+  "description": "大小模型协同的任务规划仿真系统后端",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.3",
+    "redis": "^4.6.12",
+    "langchain": "^0.1.10",
+    "@huggingface/inference": "^2.6.4",
+    "faiss-node": "^0.5.1",
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0",
+    "eslint": "^8.55.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.5.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}

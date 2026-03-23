@@ -1,6 +1,44 @@
-node_modules/
+# 前端忽略
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/build/
+frontend/dist/
+frontend/.DS_Store
+frontend/.idea/
+frontend/.vscode/
+
+# 后端忽略
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+backend/build/
+backend/dist/
+backend/.DS_Store
+backend/.idea/
+backend/.vscode/
+
+# 通用忽略
 .docker/
-.env
 *.log
-dist/
-build/
+*.swp
+*.swo
+*~
+
+# 数据目录
+backend/data/
+
+# 向量数据库
+backend/data/vector_db/
+
+# 知识图谱
+backend/data/knowledge_graph/
+
+# 数据集
+backend/data/datasets/
